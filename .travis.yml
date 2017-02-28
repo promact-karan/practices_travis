@@ -1,5 +1,9 @@
 language: android
 jdk: oraclejdk7
+env:
+  global:
+  - ANDROID TOOLS_API=24
+  - ANDROID_BUILD_TOOLS=24.0.2
 android:
 components:
 - patform-tools
